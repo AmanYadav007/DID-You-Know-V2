@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Quote Extension",
+    "version": "1.0",
+    "description": "A simple quote extension",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    },
+    "permissions": ["storage", "activeTab"],
+    "web_accessible_resources": ["quotes.json"]
+  }
+  
