@@ -1,15 +1,13 @@
 {
-    "manifest_version": 2,
-    "name": "Quote Extension",
-    "version": "1.0",
-    "description": "A simple quote extension",
-    "browser_action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "128": "icon.png"
-      }
-    },
-    "permissions": ["storage", "activeTab"],
-    "web_accessible_resources": ["quotes.json"]
-  }
-  
+  "manifest_version": 2,
+  "name": "DID You Know For web team",
+  "version": "1.0",
+  "description": "Displays random AEM Facts",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://raw.githubusercontent.com/"
+  ]
+}
